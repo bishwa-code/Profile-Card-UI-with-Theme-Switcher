@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card UI with Theme Switcher - Bishwa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="colors-container">
+            <div class="color-use"></div>
+            <img src="Profile Picture Img.jpg" alt="Profile picture">
+            <div class="color-no-use">
+                <span id="profile-name" class="change">Bishal Kushwaha</span>
+                <span id="job-title">Emerging Web Developer</span>
+                <div class="follow-num-container">
+                    <div class="follow-box">
+                            <span>10K</span>
+                            <span id="follower" class="follow-text change">Followers</span>
+                    </div>
+                    <div class="follow-box">
+                            <span>8.2K</span>
+                            <span id="following" class="follow-text change">Following</span>
+                    </div>
+                </div>
+                <div class="btns">
+                    <button id="follow-btn" class="btn">Follow</button>
+                    <button id="contact-btn" class="btn">Message</button>
+                </div>
+                <div id="web-stack" class="change">
+                        <p>MERN Stack</p>
+                        <p>(MongoDB, Express JS, React JS, Node JS)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="colors-trigger">
+            <div id="red" class="colors"></div>
+            <div id="green" class="colors"></div>
+            <div id="yellow" class="colors"></div>
+            <div id="blue" class="colors"></div>
+            <div id="purple" class="colors"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
